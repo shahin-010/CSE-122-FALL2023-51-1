@@ -14,10 +14,10 @@ int main()
             cin >> x;
             if (x == 1)
             {
-                res= abs(i - 3) + abs(j - 3) ;
+                r= abs(i - 3) + abs(j - 3) ;
             }
         }
     }
-    cout<<res;
+    cout<<r;
     return 0;
 }
