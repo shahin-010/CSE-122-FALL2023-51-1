@@ -44,7 +44,7 @@ int main() {
     ronaldo.getData();
     fernandes.getData();
 
-    ronaldo++; // Incrementing both coach and player for Ronaldo again
+    //ronaldo++; // Incrementing both coach and player for Ronaldo again
 
     cout << "After incrementing Ronaldo:" << endl;
     cout << "Ronaldo: ";
@@ -54,9 +54,9 @@ int main() {
 
     // Comparing Ronaldo and Fernandes using the '>' operator
     if (ronaldo > fernandes) {
-        cout << "Ronaldo is greater than Fernandes." << endl;
+        cout << "Ronaldo is equal to Fernandes." << endl;
     } else {
-        cout << "Ronaldo is not greater than Fernandes." << endl;
+        cout << "Ronaldo is not equal to Fernandes." << endl;
     }
 
     return 0;
